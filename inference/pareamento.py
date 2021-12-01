@@ -20,11 +20,8 @@ class Match:
         self.data = data
         self.groups = groups
         self.pscore = pscore
-
-
-
-        
-                   
+     
+                  
     def fit (self, error=0.05 ,replacement= False):
         """Realiza o Matcher.
         .
