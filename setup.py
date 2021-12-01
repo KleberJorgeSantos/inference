@@ -1,9 +1,9 @@
 from setuptools import setup
 
-# dependencies = [
-#     'pandas',
-#     'numpy'
-#   ]
+dependencies = [
+    'pandas',
+    'numpy'
+  ]
 
 VERSION = "0.0.0.1"
 
@@ -17,3 +17,4 @@ setup(
     download_url='https://github.com/KleberJorgeSantos/inference/{}.tar.gz'.format(VERSION),
     keywords=['logistic', 'regression', 'matching', 'observational', 'study', 'causal', 'inference'],
     include_package_data=True,
+    nstall_requires=dependencies)
