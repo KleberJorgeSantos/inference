@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-class Pareamento:
+class Match:
     """Faz o pareamentos do grupo controle.
     
     O retorno e um DataFrame contendo o indice do grupo estudo e o correspontende do grupo controle.  

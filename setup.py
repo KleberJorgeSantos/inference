@@ -8,8 +8,8 @@ dependencies = [
 VERSION = "0.0.0.1"
 
 setup(
-    name='pareamento',
-    packages=['pareamento'],
+    name='inference',
+    packages=['inference'],
     version=VERSION,
     description='Tecnicas de inferencia',
     author='Kleber Jorge Santos',
