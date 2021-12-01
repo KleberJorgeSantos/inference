@@ -8,7 +8,7 @@ dependencies = [
 VERSION = "0.0.0.1"
 
 setup(
-    name='pareamento',
+    name='inference',
     packages=['pareamento'],
     version=VERSION,
     description='Tecnicas de inferencia',
